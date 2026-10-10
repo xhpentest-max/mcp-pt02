@@ -8,4 +8,4 @@ def greeting(name:str) -> str:
     return f"Hi {name}, I am your SRE assistant, what can I help you?"
 
 if __name__ == "__main__":
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="streamable-http",host="0.0.0.0",port=8084)
