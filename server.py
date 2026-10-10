@@ -1,6 +1,6 @@
 
 from mcp.server.mcpserver import MCPServer
-mcp = MCPServer("SRE MCP Server", port=8084)
+mcp = MCPServer("SRE MCP Server")
 
 @mcp.tool()
 def greeting(name:str) -> str:
